@@ -1,31 +1,16 @@
-console.log('Hey this is my first piece of JS code!!! YAY')
+//   Arithmetic operators
 
-console.log(12490239043902)
+const a = 2
+const b = 15
 
-console.log({ name: "Yutika" })
+console.log(a + b)
 
-console.log(true)
-console.log(false)
+console.log(a - b)
 
-console.log(false, 234243, 'string', { name: "Alfred" })
+console.log(a * b)
 
-console.warn("This is a warning")
+console.log(a / b)
 
-console.error("this is an error")
+console.log(a ** b)
 
-// Data types
-
-// Primitive data types
-
-let age = 19;
-
-console.log(age)
-
-let brand
-
-console.log(brand)
-
-// Non primitive data types 
-
-let arr = [1,2,3,4]
-console.log(arr)
+console.log(b % a)
