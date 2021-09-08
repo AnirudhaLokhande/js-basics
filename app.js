@@ -1,30 +1,19 @@
-const rock = document.querySelector('#rock')
-const paper = document.querySelector('#paper')
-const scissor = document.querySelector('#scissor')
-const board = document.querySelector("#board")
+console.log("MERGED CLASS 1 ES6")
+
+var arr = [1,2,3,4];
+console.log(arr[2]);
+
+var [one, two, three, four, five] = [1,2,3,4]; //ES6 Destructuring
+console.log(three);
+console.log(four);
+console.log(five);
 
 
-const handler = (e) => {
-    const action = e.target.id
-
-    switch (action) {
-        case "rock":
-            board.innerHTML = "Rock crushes scissors"
-            break
-        case 'paper':
-            board.innerHTML = "Paper traps Rock"
-            break
-        case 'scissor':
-            board.innerHTML = "Scissor cuts paper"
-            break
-        default:
-            board.innerHTML = "Click something"
-    }
-
+function getscores() {
+    return [90,100];
 }
 
-
-
-rock.addEventListener('click', handler)
-paper.addEventListener('click', handler)
-scissor.addEventListener('click', handler)
+let [x,y,z] = getscores();
+console.log(x);
+console.log(y);
+console.log(z);
