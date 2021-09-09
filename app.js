@@ -1,4 +1,4 @@
-console.log("Map, Filter");
+console.log("MERGED CLASS 2 ES6");
 
 let ranks = [1, 2, 3, 4, 5 ,6];
 
@@ -10,6 +10,7 @@ console.log(
 
 console.log(
   ranks.forEach((e, index) => {
+    console.log(e*100);
     return e * 100;
   })
 );
